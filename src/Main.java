@@ -6,6 +6,10 @@ public class Main {
         String lastName = "Ivanov";
         System.out.printf("ФИО сотрудника - %s %s %s", lastName, firstName, middleName);
         System.out.println();
+
+        System.out.println("Task 1 - Corrected");
+        String fullName = lastName + " " + firstName + " " + middleName;
+        System.out.println("ФИО сотрудника -" + fullName);
         task2();
         task3();
     }
