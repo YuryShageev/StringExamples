@@ -7,6 +7,7 @@ public class Main {
         System.out.printf("ФИО сотрудника - %s %s %s", lastName, firstName, middleName);
         System.out.println();
         task2();
+        task3();
     }
 
     public static void task2() {
@@ -14,6 +15,13 @@ public class Main {
         String fullName = "Ivanov Ivan Ivanovich";
         String upperCaseFullName = fullName.toUpperCase();
         System.out.println("ФИО сотрудника - " + upperCaseFullName);
+    }
+
+    public static void task3() {
+        System.out.println("Task 3 - 1st option");
+        String fullName = "Иванов Семён Семёнович";
+        String fullNameCopy = fullName.replace('ё', 'е');
+        System.out.println("Данные ФИО сотрудника - " + fullNameCopy);
     }
 
 }
